@@ -16,7 +16,6 @@ const Toolbar = () => {
             <button className="toolbar__btn" onClick={()=>{toolState.setTool(new Oval(canvasState.canvas))}}>Oval</button>
             <button className="toolbar__btn" onClick={()=>{toolState.setTool(new Eraser(canvasState.canvas))}}>Eraser</button>
             <button className="toolbar__btn" onClick={()=>{toolState.setTool(new Path(canvasState.canvas))}}>Line</button>
-            <input type="color" />
             <button className="toolbar__btn" style={{'marginLeft': 'auto'}}>Undo</button>
             <button className="toolbar__btn">Redo</button>
             <button className="toolbar__btn">Save</button>
